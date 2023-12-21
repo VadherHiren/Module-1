@@ -1,0 +1,129 @@
+JS Introduction:
+
+Q) What is JS?
+
+	JavaScript (JS) is the most popular lightweight, interpreted compiled programming language. It can be used for both Client-side as well as Server-side developments. JavaScript also known as a scripting language for web pages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Three Ways to Display.
+1)document.getElementById("");
+2)Document.write();
+3)console.log();
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4 types of pop-up
+1)Alert -> whict has only one option
+2) confrim -> which has 2 option ( OK and CANCLE )
+3) promt -> which has 3 option ( INPUT, OK and CANCLE )
+4)print();
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q) What is DataType:
+	It tells us what kinf/type of value stored in a variable
+
+Two type datatype declaration:
+primitive datatype and non-primitive
+
+1)Primitive DataType:
+var
+let
+const
+
+2)Non-primitive:
+obj
+function
+array
+
+
+
+
+Type Of Variables Declaration:
+
+Rules:
+-starting should not be number
+-oprator not use.
+-space not use in bettween two words.
+-not any method name can use.
+
+1) Variable 
+var x = 12; 
+we can (Re-Declare and Re-assign) value of x.
+
+2) let 
+let y = 13
+we can Re-assign value of y, but we cannot Re-declare value of y.
+
+2) Const 
+const z = 16
+we cannot Re-assign value of z, also we cannot Re-declare value of z.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Operators: 
+
+    1. Assignment (=) (var x=56) Assignment/Intialization
+
+    2. Arithmetic (+,-,*,/,%)  % : mod /modulo/modulus
+
+    x=23,y=45 (x,y:operands)
+    
+    x+y 
+
+    + : (Binary Op)
+
+
+    ==> When we perform Arithmetic oprator on a number and a string values it will give you an error (NaN :Not A Number) except + (+ will append/concate/join those values)
+
+
+    3. Relational/conditional/Comparison : (<,>,<=,>=,==,!=,===)
+
+    4. Logical (&&(Logical AND ) , || (Logical OR) , ! (Logical NOT))
+
+
+    --> &&(Logical AND )
+
+    True True   ==> True
+    True False  ==> False
+    False True  ==> False
+    False False ==> False
+
+    --> || (Logical OR)
+
+    True True  ==> True
+    True False  ==> True
+    False True  ==> True
+    False False ==> False
+
+    ! (Logical NOT)
+
+    !true ==> false
+    !false ==> true
+
+    5. Ternary Op: 
+
+    (condition) ? truePart: falsePart
+
+    6. Increment / Decrement 
+    (++) ==> adds 1 (unary Operators)
+    (--) ==> less 1
+
+    x=34;
+    ++x ==> Pre-increment
+    x++ ==> post-increment
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Conditions:
+
+1)if
+2)if-else
+3)if-elseif-else
+4)nested if
+5)Switch case
+
+
